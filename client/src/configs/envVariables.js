@@ -1,25 +1,12 @@
-const Reset = '\x1b[0m';
-const FgYellow = '\x1b[33m';
+// Read API host from environment when available (works with `npm start` inside container)
+// For create-react-app, env vars must be prefixed with REACT_APP_
+// When the frontend bundle runs in the user's browser, it should use `localhost`
+// so requests originate from the host machine and reach the backend published on :5000.
+// `host.docker.internal` is only needed for container-to-host requests made from inside containers.
+const DEFAULT_LOCAL = 'http://localhost:5000';
 
-const APP_ENV = 'local'
-let APP_HOST = ''
+const APP_HOST = process.env.REACT_APP_API_URL || DEFAULT_LOCAL;
 
-switch (APP_ENV) {
-    case 'local':
-        console.log('connecting to local')
-        APP_HOST = 'http://localhost:5002'
-        break;
-    case 'prod':
-        console.log('connecting to prod')
-        APP_HOST = 'https://chatsapp-iu36.onrender.com'
-        break;
-    default:
-        console.log('connecting to default api (local)')
-        APP_HOST = 'http://localhost:5002'
-        break;
-}
-
-console.log(FgYellow, APP_ENV, Reset)
-console.log(FgYellow, APP_HOST, Reset)
+console.log('Using API host:', APP_HOST);
 
 export default APP_HOST;
