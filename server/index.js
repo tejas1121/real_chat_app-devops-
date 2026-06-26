@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const dns = require("dns");
 const mongoose = require("mongoose");
 const authRoutes = require("./routes/auth");
 const messageRoutes = require("./routes/messages");
@@ -14,7 +15,7 @@ require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
-
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
