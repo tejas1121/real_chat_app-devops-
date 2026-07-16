@@ -338,8 +338,7 @@ REACT_APP_API_URL=
 **GitHub Repository**
 ![GitHub Repo](README-assets/image.png)
 
-**Project Structure (VS Code)**
-[Project Structure](README-assets/github-repo.png)
+
 
 
 ---
