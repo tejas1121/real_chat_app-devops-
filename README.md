@@ -170,7 +170,7 @@ real_chat_app_devops/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/real_chat_app_devops.git
+git clone https://github.com/tejas1121/real_chat_app_devops.git
 cd real_chat_app_devops
 ```
 
@@ -285,8 +285,7 @@ REACT_APP_API_URL=
 **Login Page**
 ![Login](README-assets/login.png)
 
-**Register Page**
-> 🕓 *Screenshot pending — will be added here.*
+
 
 **Post-Login / Contact Selection**
 ![Welcome](README-assets/welcome.png)
@@ -337,10 +336,11 @@ REACT_APP_API_URL=
 ### Source Control
 
 **GitHub Repository**
-![GitHub Repo](README-assets/github-repo.png)
+![GitHub Repo](README-assets/image.png)
 
 **Project Structure (VS Code)**
-> 🕓 *Screenshot pending — will be added here.*
+[Project Structure](README-assets/github-repo.png)
+
 
 ---
 
@@ -382,11 +382,11 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👤 Author
 
-**Your Name**
+**Tejas Burkul**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tejas1121)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejas-burkul-6302042b5/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tejasburkul49@gmail.com)
 
 ---
 
